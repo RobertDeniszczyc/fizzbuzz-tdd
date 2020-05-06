@@ -1,0 +1,14 @@
+{
+  "name": "fizzbuzz-tdd",
+  "version": "1.0.0",
+  "description": "TDD workshop using classic FizzBuzz problem",
+  "author": "Rob Deniszczyc",
+  "license": "MIT",
+  "scripts": {
+    "fizzbuzz": "node src/fizzbuzzRunner",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}
