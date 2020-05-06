@@ -26,6 +26,10 @@ yarn fizzbuzz
 # Instructions
 We are going to build a small application to perform the classic "FizzBuzz" operation. See below acceptance criteria and an example. To help build the application we are going to follow the Test Driven Development methodology and write tests **before** writing the application code.
 
+Write your tests in the `src/fizzbuzz.test.js` file and the application code in the `src/fizzbuzz.js` file.
+
+You don't need to touch the `src/fizzbuzzRunner.js`, this file is used only to run the application.
+
 ## Acceptance Criteria
 1. **Given** I input a number into the application  
 **Then** the output of the application is a string representation of the number I have inputted
@@ -41,10 +45,10 @@ We are going to build a small application to perform the classic "FizzBuzz" oper
 
 ## Example
 ```
-fizzBuzz(1) // outputs "1"
-fizzBuzz(3) // outputs "Fizz"
-fizzBuzz(5) // outputs "Buzz"
-fizzBuzz(15) // outputs "FizzBuzz"
+fizzbuzz(1) // returns "1"
+fizzbuzz(3) // returns "Fizz"
+fizzbuzz(5) // returns "Buzz"
+fizzbuzz(15) // returns "FizzBuzz"
 ```
 
 # Rules
