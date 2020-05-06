@@ -28,7 +28,7 @@ We are going to build a small application to perform the classic "FizzBuzz" oper
 
 Write your tests in the `src/fizzbuzz.test.js` file and the application code in the `src/fizzbuzz.js` file.
 
-You don't need to touch the `src/fizzbuzzRunner.js`, this file is used only to run the application.
+You don't need to touch the `src/fizzbuzzRunner.js` file, this file is used only to run the application.
 
 ## Acceptance Criteria
 1. **Given** I input a number into the application  
